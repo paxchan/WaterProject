@@ -87,3 +87,5 @@ export const deleteProject = async (projectId: number): Promise<void> => {
     throw error;
   }
 };
+
+export default API_URL;

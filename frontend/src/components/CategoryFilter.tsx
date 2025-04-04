@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './CategoryFilter.css';
+import API_URL from '../api/ProjectsAPI';
 
 function CategoryFilter({
   selectedCategories,
@@ -13,9 +14,7 @@ function CategoryFilter({
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch(
-          'https://localhost:5000/Water/GetProjectTypes'
-        );
+        const response = await fetch(`${API_URL}/GetProjectTypes`);
         const data = await response.json();
         console.log('Fetched categories:', data);
         setCategories(data);
