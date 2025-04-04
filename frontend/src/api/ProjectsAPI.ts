@@ -5,7 +5,8 @@ interface FetchProjectsResponse {
   totalNumProjects: number;
 }
 
-const API_URL = 'https://localhost:5000/Water';
+const API_URL =
+  'https://waterproject-paxman-backend-d4d5gga3gvfqgkeg.eastus-01.azurewebsites.net/Water';
 
 export const fetchProjects = async (
   pageSize: number,
@@ -18,7 +19,7 @@ export const fetchProjects = async (
       .join('&');
 
     const response = await fetch(
-      `https://localhost:5000/Water/AllProjects?pageSize=${pageSize}&pageNum=${pageNum}${selectedCategories.length ? `&${categoryParams}` : ''}`
+      `${API_URL}/AllProjects?pageSize=${pageSize}&pageNum=${pageNum}${selectedCategories.length ? `&${categoryParams}` : ''}`
     );
 
     if (!response.ok) {
