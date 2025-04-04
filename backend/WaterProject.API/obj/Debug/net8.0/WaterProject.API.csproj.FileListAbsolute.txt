@@ -244,6 +244,7 @@
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.csproj.CoreCompileInputs.cache
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.MvcApplicationPartsAssemblyInfo.cs
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.sourcelink.json
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/scopedcss/bundle/WaterProject.API.styles.css
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/staticwebassets.build.json
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/staticwebassets.development.json
@@ -260,4 +261,3 @@
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.pdb
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.genruntimeconfig.cache
 /Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/ref/WaterProject.API.dll
-/Users/test/RiderProjects/WaterProject/backend/WaterProject.API/obj/Debug/net8.0/WaterProject.API.sourcelink.json

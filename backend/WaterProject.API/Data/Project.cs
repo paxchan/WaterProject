@@ -5,7 +5,7 @@ namespace WaterProject.API.Data;
 public class Project
 {
     [Key]
-    public string ProjectId { get; set; }
+    public int ProjectId { get; set; }
     [Required]
     public string? ProjectName { get; set; }
     public string? ProjectType { get; set; }
